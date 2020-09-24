@@ -21,3 +21,6 @@ class GetRequester
   end
 
 end
+
+response = GetRequester.new.get_response_body
+puts response
