@@ -6,5 +6,5 @@ require 'pry'
 class GetRequester
 
   URL = ""
-  
+
 end
