@@ -7,7 +7,7 @@ class GetRequester
 
   URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
 
-  def self.new(input_url)
+  def initialize(input_url)
     URL = input_url
   end
 
