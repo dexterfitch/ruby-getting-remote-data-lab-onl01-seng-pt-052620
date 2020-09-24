@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 require 'pry'
 
-class GetRequester
+class GetRequester(inputURL)
 
   URL = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
 
@@ -12,5 +12,5 @@ class GetRequester
 
   def parse_json
   end
-  
+
 end
