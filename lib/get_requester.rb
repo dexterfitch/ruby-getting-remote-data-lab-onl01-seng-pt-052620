@@ -3,5 +3,8 @@ require 'open-uri'
 require 'json'
 require 'pry'
 
-def GetRequester
+class GetRequester
+
+  URL = ""
+  
 end
