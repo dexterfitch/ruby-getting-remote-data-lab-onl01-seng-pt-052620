@@ -20,6 +20,3 @@ class GetRequester
   end
 
 end
-
-response = GetRequester.new.parse_json
-puts response
