@@ -5,10 +5,12 @@ require 'pry'
 
 class GetRequester
 
-  @url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
-
   def initialize(input_url)
-    @url = input_url
+    if input_url == nil
+      @url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json"
+    else
+      @url = input_url
+    end
   end
 
   def get_response_body
